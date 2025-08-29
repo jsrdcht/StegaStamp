@@ -93,3 +93,5 @@ python detector.py \
 Add the `--save_video FILENAME` flag to save out the results.
 
 The `--visualize_detector` flag can be used to visualize the output of the detector network. The mask corresponds to the segmentation mask, the colored polygons are fit to this segmentation mask using a set of heuristics. The detector outputs can noisy and are sensitive to size of the stegastamp. Further optimization of the detection network is not explored in this paper.
+
+> For a community PyTorch implementation, see https://github.com/jsrdcht/StegaStamp-pytorch
